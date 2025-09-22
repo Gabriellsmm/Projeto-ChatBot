@@ -1,0 +1,13 @@
+# Ignorar datasets e arquivos grandes
+data/
+*.tar.gz
+
+# Ignorar checkpoints de modelos
+*.pth
+*.pt
+
+# Ignorar cache do PyTorch e logs
+__pycache__/
+*.pyc
+*.pyo
+*.log
